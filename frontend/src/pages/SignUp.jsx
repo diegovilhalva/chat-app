@@ -1,3 +1,4 @@
+import GenderCheckBox from "../components/GenderCheckBox"
 
 
 const SignUp = () => {
@@ -32,7 +33,8 @@ const SignUp = () => {
                         </label>
                         <input type="password" placeholder="Digite sua senha novamente" className="w-full input input-bordered h-10" />
                     </div>
-                    <a href="" className="text-sm hover:underline text-gray-50 hover:text-blue-600 mt-4 inline-block">
+                    <GenderCheckBox/>
+                    <a href="" className="text-sm hover:underline text-gray-50 hover:text-blue-600 mt-2 inline-block">
                         Já possui uma conta?
                     </a>
                     <div>
