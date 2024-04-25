@@ -6,7 +6,7 @@ const SearchInput = () => {
     <form className="flex  items-center gap-2">
         <input type="text" placeholder="Pesquisar" className="input input-bordered rounded-full" />
         <button className="btn btn-circle bg-sky-500 text-white">
-            <IoSearchSharp className="h-6 w-6 outline-none"/>
+            <IoSearchSharp className="h-6 w-6 outline-PSnone"/>
         </button>
     </form>
   )
